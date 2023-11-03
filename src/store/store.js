@@ -5,6 +5,6 @@ import notesReducer from './notesSlice.js';
 export default configureStore({
   reducer: {
     books: booksReducer,
-    notes: notesReducer
-  }
-})
+    notes: notesReducer,
+  },
+});

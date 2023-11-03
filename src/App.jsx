@@ -7,7 +7,7 @@ import AddBookPage from './views/AddBookPage.jsx';
 function App() {
 
   return (
-    <>  
+    <>
       <BrowserRouter>
         <Routes>
           <Route index element={<LoginPage />} />
@@ -15,8 +15,8 @@ function App() {
           <Route path="book/:id" element={<SingleBookPage />} />
         </Routes>
       </BrowserRouter>
-      
-        
+
+
     </>
   )
 }
