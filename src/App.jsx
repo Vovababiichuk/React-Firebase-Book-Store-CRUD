@@ -15,8 +15,6 @@ function App() {
           <Route path="book/:id" element={<SingleBookPage />} />
         </Routes>
       </BrowserRouter>
-
-
     </>
   )
 }
